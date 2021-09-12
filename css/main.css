@@ -5,16 +5,13 @@
 .imgfrist{
 height: 147px;
 width: 1068px;
-border: 1px solid black;
 margin: auto;
 display: inline-block;
 }
 .imgfrist__img{
-    border:1px solid;
-    width: 214px;
-    height: 60px;
-    /* margin: 34px 28px 0px; */
-    margin: auto;
+    width: 314px;
+    height: 90px;
+      margin: 34px 28px 0px;
     background-image:url(/img/logo-new-1.png);
     background-size: 100%;
 }
@@ -24,11 +21,13 @@ display: inline-block;
     background-color: #282a35;
     margin: 0;
     display: inline-block;
+    align-items: center;
 }
 .contact__item{
 display: flex;
 flex-direction: row;
 margin-left: 70%;
+margin-top: 7px;
 }
 .contact__item-item1{
     color: white;
@@ -37,4 +36,26 @@ margin-left: 70%;
 }
 .contact__item-item1:hover{
     color: rgba(255,0,0,0.8);
+}
+.menu  {
+    background-color: black;
+    width: 1068px;
+    height: 48px;
+    margin: auto;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu__list{
+    margin-left: 25px;
+}
+.menu__list-item{
+    padding: 3px 8px;
+}
+.menu__list-icon{
+    color: white;
+    margin-left: 120px;
 }
